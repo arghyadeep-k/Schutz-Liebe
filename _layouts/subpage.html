@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Contact - Alpha by HTML5 UP</title>
+		<title>{{ page.title }} — Schutz Liebe Rottweilers</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,12 +18,12 @@
 				<header id="header">
 					<!-- <h1><a href="index.html">Alpha</a> by HTML5 UP</h1> -->
 					<h1><a class="navbar-brand" href="/">
-						<img src="img/logo.png" alt="Logo">
+						<img id="logo" src="images\FB_IMG_1590707705647.jpg" alt="Logo.jpg">
 					  </a>
 					</h1>	
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">HOME</a></li>
+							<li><a href="/">HOME</a></li>
 							<li>
 								<a href="#" class="icon solid fa-angle-down">OUR DOGS</a>
 								<ul>
@@ -55,21 +55,8 @@
                 </header>
                 
                 {{ content }}
-
-                <!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
+				
+				{% include footer.html %}
 
 		</div>
 

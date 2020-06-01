@@ -3925,3 +3925,44 @@
 			}
 
 	}
+
+
+.main-body-clubs{
+	text-align: center;
+	font-style: italic !important;
+	border-top: solid 2px #e5e5e5;
+	padding-top: 85px;
+}
+/* Testimonies */
+.testimonies-body{
+	border-bottom: solid 2px #e5e5e5;
+	text-align: center;
+	padding-bottom: 25px;
+	margin-bottom: 60px;
+
+}
+/* .testimonies-heading {
+	text-align: center;
+	 margin: 55px 190px 40px 190px;	 
+	margin: 5% 15% 0% 15%;	
+	padding-bottom: 3%;
+	border-bottom: solid rgba(83, 75, 75, 0.856);
+	border-width: thin;
+} */
+/* .testimonies-body-text{
+	text-align: center;	
+	background-color: #fff;
+	margin: 5% 15% 0% 15%;	
+} */
+.testimonies-body-quotes{	
+	display: block;
+	opacity: .3;
+	font-family: adobe-garamond-pro;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 70px;
+	letter-spacing: 0px;
+	line-height: 0.5em;
+	color: rgba(26,26,26,.9);
+	text-align: center;
+}
